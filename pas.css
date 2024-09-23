@@ -1,0 +1,43 @@
+body {
+	background-color: cadetblue;
+	font-size: 40px;
+	text-align: center;
+	margin-left: 200px;
+	height: 700px;
+	width: 900px;
+}
+
+#banner {
+	width: 900px;
+	height: 200px;
+	/*background: url(......../back/pc9.jpeg);*/
+	text-decoration-color:yellowgreen ;
+	background-color: purple;
+}
+
+#menu {
+	width: 900px;
+	height: 50px;
+	background-color: indianred;
+}
+
+#content-area {
+	width: 600px;
+	height: 400px;
+	background-color: burlywood;
+	float: left;
+}
+
+#side-bar {
+	width: 300px;
+	height: 400px;
+	background-color: seagreen;
+	float: right;
+}
+
+#footer {
+	width: 900px;
+	height: 50px;
+	background-color: orangered;
+	clear: both;
+}

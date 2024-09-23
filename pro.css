@@ -1,0 +1,44 @@
+div {
+	text-align: center;
+	padding: 12px;
+}
+
+body {
+	background-color: steelblue;
+	
+
+}
+button {
+	background-color: green;
+	border-radius: 12px;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+button :hover {
+	cursor: pointer;
+	background-color: green;
+	color: red;
+}
+
+img {
+	height: 160px;
+	width: 150px;
+}
+
+h1 {
+	color:black;
+	padding: 10px;
+	
+
+}
+
+h2 {
+	text-align: center;
+	background-color: orange;
+	color: black;
+	padding: 32px;
+	border-radius: 15px;
+	
+}

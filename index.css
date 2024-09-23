@@ -1,0 +1,65 @@
+body {
+	font-family: Arial,sans-serif;
+	margin: 0;
+	padding: 7px;
+	background: url(./image/Back.jpg) no-repeat ;
+	background-size: cover;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+	margin: 0 10 px;
+
+}
+
+nav ul li a {
+	color: #fff;
+	padding: 25px;
+}
+
+.paragraph {
+	
+	color: white;
+	margin-bottom: 12px;
+	
+}
+
+h2 {
+	text-align: center;
+    color: white;
+}
+
+h1 {
+	color: blue;
+
+}
+
+footer {
+	color: green;
+}
+
+.homeimage {
+	margin-top: 15px;
+}
+
+.description {
+	color: violet;
+	font-style: italic;
+}
+

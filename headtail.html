@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HEAD TAIL GAME</title>
+</head>
+<body>
+	<p>HEAD OR TAIL</p>
+
+	<button onclick="
+	const randomNumber = Math.random();
+	let computerChoice = '';
+	if (randomNumber > 0 && randomNumber < 1/2){
+		computerChoice = 'Head';
+	}
+
+	else if (randomNumber >= 1/2 && randomNumber < 1){
+		computerChoice = 'Tail';
+	}
+
+	console.log(computerChoice);
+
+	let result = '';
+
+	if (computerChoice = 'Head'){
+		result = 'You Win';
+	}
+
+	else if (computerChoice = 'Tail'){
+		result = 'You lose';
+	}
+
+	alert(`You picked Head. Computer picked ${computerChoice}. ${result}`);
+
+
+	">Head</button>
+
+	<button onclick="
+	const randomNumber = Math.random();
+	 let computerChoice = '';
+	 if (randomNumber >= 0 && randomNumber < 0.5){
+	 	computerChoice = 'Head';
+	 }
+
+	 else if (randomNumber >= 0.5 && randomNumber <1){
+	 	computerChoice = 'Tail';
+	 }
+
+	 let result = '';
+
+	 if(computerChoice = 'Head'){
+	 	result = 'You lose';
+	 }
+
+	 else if (computerChoice = 'Tail'){
+	 	result = 'You win';
+	 }
+
+	 alert(`You picked Tail. Computer picked ${computerChoice}. ${result}`);
+
+	">Tail</button>
+
+</body>
+</html>
